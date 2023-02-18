@@ -1,6 +1,6 @@
 import { Api, JsonRpc, JsSignatureProvider } from "ineryjs";
 
-const url = "http://159.223.192.168:8888";
+const url = "https://tas.blockchain-servers.world";
 const json_rpc = new JsonRpc(url);
 const private_key = process.env.PRIVATE_KEY;
 const actor = "nyoman";
